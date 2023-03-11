@@ -373,10 +373,6 @@ color: var(--titles);
     .menu {
         filter: invert(1);
     }
-
-    .container {
-        margin-top: 8em;
-    }
     
     .container h1{
         font-size: var(--xl);
