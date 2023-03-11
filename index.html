@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museo del Ocultismo</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <img
+          src="https://i.pinimg.com/originals/f9/42/e5/f942e52f2f9abf75a66474e136469fd7.gif"
+          alt="logo"
+          class="logo"
+        />
+        <ul class="nav-menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html#About">¿Qué es?</a></li>
+          <li><a href="index.html#Warrens">Creadores</a></li>
+          <li><a href="index.html#Oficial-page">Sitio oficial</a></li>
+          <li><a href="gallery.html">Galeria</a></li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <img src="assets/menu.svg" alt="Menu" class="menu-icon" />
+      </div>
+    </nav>
+
+    <main class="container">
+      <h1>Museo del Ocultismo de los Warren</h1>
+      <section class="examples">
+        <img src="/assets/robert.jpg" alt="" />
+        <img src="/assets/idolosatanico.jpeg" alt="" />
+        <img src="/assets/anabelle.jpg" alt="" />
+        <img src="/assets/calavera.jpg" alt="" />
+        <img src="/assets/shadowdoll.jpg" alt="" />
+      </section>
+
+      <section class="about" id="About">
+        <h2>¿Qué es?</h2>
+        <p class="parrafo">
+          Este museo único en su tipo está localizado en el sótano de la casa de
+          los Warren en Monroe, mismo que ha sido visitado por cientos de miles
+          de personas de todo el mundo. En el museo podrás encontrar una gran
+          variedad de objetos que están relacionados a actividades paranormales
+          e incluso en prácticas diabólicas, por lo que ante todo hay que entrar
+          con mucha fe y respeto.
+        </p>
+      </section>
+
+      <section class="museum">
+        <figure>
+          <img src="/assets/lorraine2.jpg" alt="Museo" />
+          <figcaption>Lorraine Warren en el museo</figcaption>
+        </figure>
+      </section>
+
+      <section class="warrens" id="Warrens">
+        <div class="bio">
+          <h2>¿Quiénes eran?</h2>
+          <p>
+            Ed y Lorraine Warren son conocidos como los "investigadores de
+            fenómenos paranormales". Durante décadas, trabajaron juntos como
+            investigadores y consultores en casos de supuestos fenómenos
+            sobrenaturales y alegaciones de posesión demoníaca. Algunos de sus
+            casos más conocidos incluyen la posesión de Amityville y el caso de
+            Annabelle, ambos de los cuales han sido popularizados en películas
+            de terror.
+          </p>
+        </div>
+        <div class="image">
+          <img src="/assets/warrens2.jpg" alt="Warrens" />
+        </div>
+      </section>
+
+      <section class="oficial-page" id="Oficial-page">
+          <a href="https://tonyspera.com/"
+            ><img src="assets/skull.svg" alt="Enlace"
+          /></a>
+          <p>
+            Acá te dejo el enlace oficial del museo, este se encuentra
+            administrado actualmente por el esposo de la hija de los Warrens.
+            <a href="https://tonyspera.com/"><span>Visítalo</span></a>  para obtener más información.
+          </p>
+      </section>
+    </main>
+
+    <section class="quote">
+      <div>
+        <p>
+          "No puedes correr y esconderte de lo sobrenatural. Es allí donde vive,
+          y siempre estará ahí".
+        </p>
+        <span>Ed Warren.</span>
+      </div>
+    </section>
+
+    <div class="footer">
+      <p>Landing Page | Proyecto personal</p>
+      <p>Jonatan Agudelo Suarez &copy; 2023</p>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        const nav = document.querySelector("nav");
+        if (window.scrollY > 0) {
+          nav.classList.add("black");
+        } else {
+          nav.classList.remove("black");
+        }
+      });
+    </script>
+
+    <script>
+      const menuIcon = document.querySelector(".menu-icon");
+      const menuHamburguer = document.querySelector(".nav-menu");
+      const nav = document.querySelector("nav");
+
+      menuIcon.addEventListener("click", function () {
+        nav.classList.add("black");
+        menuHamburguer.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
