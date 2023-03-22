@@ -218,7 +218,7 @@ h1{
     opacity: 0.9;
 }
 
-.oficial-page {
+.official-page {
     width: 75%;
     margin-top: 8em;
     text-align: justify;
@@ -228,19 +228,19 @@ h1{
     scroll-margin: 10em;
 }
 
-.oficial-page a {
+.official-page a {
     text-decoration: none;
 }
 
-.oficial-page span {
+.official-page span {
 color: var(--titles);    
 }
 
-.oficial-page p {
+.official-page p {
     font-size: 18px;
 }
 
-.oficial-page img {
+.official-page img {
     width: 3em;
     height: 3em;
 }
@@ -463,16 +463,16 @@ color: var(--titles);
         height: 500px;
     }
 
-    .oficial-page img {
+    .official-page img {
         width: 5em;
         height: 5em;
     }
 
-    .oficial-page span {
+    .official-page span {
         font-size: var(--xl);
     }
         
-    .oficial-page p {
+    .official-page p {
         font-size: var(--xl);
     }
 
