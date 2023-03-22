@@ -109,6 +109,7 @@ h1{
     font-family: var(--title-family);
     text-transform: uppercase;
     text-align: center;
+    line-height: 2;
 }
 
 
@@ -340,7 +341,7 @@ color: var(--titles);
     padding: 0 6px;
 }
 
-/* ######################################################## Media mobile ########################################################*/
+/* ###################################################### ## Media mobile ########################################################*/
 
 @media screen and (max-width: 768px) {
 
@@ -372,12 +373,7 @@ color: var(--titles);
     
     .menu {
         filter: invert(1);
-    }
-    
-    .container h1{
-        font-size: var(--xl);
-        text-align: center;
-    }
+    }  
     
     .examples {
         height: 400px;
